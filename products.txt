@@ -1,0 +1,30 @@
+{
+        "title":"coderhouse",
+        "price": 12345,
+        "thumbnail": "https:asdl31231,
+        "id":1
+    },
+    {
+        "title":"coderhouse",
+        "price": 12345,
+        "thumbnail": "https:asdl31231,
+        "id":2
+    },
+    {
+        "title":"coderhouse",
+        "price": 12345,
+        "thumbnail": "https:asdl31231,
+        "id":3
+    },
+    {
+        "title":"coderhouse",
+        "price": 12345,
+        "thumbnail": "https:asdl31231,
+        "id":4
+    },
+    {
+        "title":"coderhouse",
+        "price": 12345,
+        "thumbnail": "https:asdl31231,
+        "id":5
+    },
