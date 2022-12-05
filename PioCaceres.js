@@ -27,7 +27,7 @@ class Contenedor{
         let productos = this.getAll();
         try{
             let newId;
-            productos.length === 0 ? newId = 1 : newid = porductos [productos.length-1].id + 1;
+            productos.length === 0 ? newId = 1 : newid = productos [productos.length-1].id + 1;
             let newObj = {...obj, id: newId};
             productos.push(newObj);
             await this.writeFile(productos);
@@ -49,7 +49,7 @@ class Contenedor{
      deleteById = async id => {
         let porductos = await this.getAll();
         try{
-            productos = productos.filter(porducto => producto.id !=id);
+            productos = productos.filter(producto => producto.id !=id);
             await this.writeFile(productos);
         }catch(err){
             console.log(`error:${err}`);}
